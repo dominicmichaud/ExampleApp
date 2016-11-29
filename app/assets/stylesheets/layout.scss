@@ -1,0 +1,48 @@
+#myModal{
+  h4, label, p{
+    color: #000;
+  }
+
+  .notice{
+    display: none;
+    margin: 0 0 5px;
+    color: #a94442;
+    font-size: 12px;
+  }
+
+  .frm-container{
+    padding-bottom: 15px;
+  }
+
+  .checkbox{
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+    label{
+      line-height: 1.55;
+    }
+  }
+
+  .btn-md{
+    padding: 6px 40px;
+  }
+
+  .shared-link{
+    margin-top: 15px;
+    display: inline-block;
+  }
+
+  .success-icon{
+    position: absolute;
+    top: -25px;
+    width: 100%;
+    text-align: center;
+    z-index: 5;
+    opacity: 0;
+
+    .fa-check-circle-o{
+      color: #4cae4c;
+      font-size: 50px;
+    }
+  }
+}
